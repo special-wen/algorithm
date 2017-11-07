@@ -1,0 +1,48 @@
+/*************************************************************************
+	> File Name: creat.c
+	> Author: zxw
+	> Mail: 
+	> Created Time: 2017年10月22日 星期日 21时42分01秒
+ ************************************************************************/
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+typedef struct Student{
+    int id;
+    char name[20];
+    struct Student *next;
+}Stu;
+
+void Insert(char name[],Stu *head);//创建一个新的链表
+
+int main(void){
+    Stu *head;
+    head = (Stu*)malloc(sizeof(Stu));
+    head->next = NULL;
+    head->id = 0;
+    char name[20];
+    scanf("%s",name);
+    //printf("%s",name);
+    strcpy(head->name,name);
+    puts(head->name);
+    Insert(name,head);
+}
+
+void Insert(char name[],Stu *head){
+    Stu *temp,*new;
+    temp = head;
+    while(temp->next != NULL){
+        temp = temp->next;
+    }
+    new = (Stu*)malloc(sizeof(Stu));
+    new->next = temp->next;
+    temp->next = new;
+    new->id = temp->id + 1;
+    strcpy(new->name,name);
+    puts("das");
+    puts(new->name);
+    printf("####%d\n",new->id);
+    printf(("%d\n","%s"),new->id,new->name);
+}

@@ -24,18 +24,18 @@ int main(void){
         length = strlen(email);
         temp = Isymbol(email,length);
         //puts(email);
-        printf("%d\n",temp);
+        //printf("%d\n",temp);
         if(temp == 0){
             printf("NO\n");
         }else{
             num = Seat(length,temp);
             aaa = Location(email,length);
-            printf("%d %d\n",num,aaa);
+            //printf("%d %d\n",num,aaa);
             if(num == 0 || aaa == 0){
                 printf("NO\n");
             }else{
                 last = Least(email,num,length);
-                printf("%d\n",last);
+                //printf("%d\n",last);
                 if(last == 1){
                     printf("YES\n");
                 }else{
@@ -96,17 +96,17 @@ int Least(char email[],int i,int length){
     int a;
     int sum = 0;
     int temp[20];
-    for(a = i+1;a<length;a++){
+    for(a = i-1;a<length;a++){
         if(email[a] == '.'){
             temp[sum] = a;
             sum++;
-            printf("%d\n",a);
+            //printf("%d\n",a);
         }
     }
     if(sum == 0){
         return 0;
     }else{
-        if(temp[0] == i+1 || temp[sum--] == length--){
+        if(temp[0] == i+1 || temp[sum--] == length-- || temp[0]== i-1){
             return 0;
         }else{
             return 1;
