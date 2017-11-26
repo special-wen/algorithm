@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="algorithm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zxw/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zxw/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zxw/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm">
+				<Option output="/home/zxw/algorithm/cmake-build-debug/algorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxw/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm/fast">
+				<Option output="/home/zxw/algorithm/cmake-build-debug/algorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxw/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/zxw/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zxw/algorithm/333">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/AI.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/AandB">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/AandB.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/BII.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/CIII.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/D.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/E.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/F.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/G.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/H.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/a.out">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/aPlusb.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/huangang.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/links.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/A+B/linst.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/a.out">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/cow/a.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/cow/cow.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/email/email.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/evenSum">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/evenSum.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/hello">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/hello.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/linklist/a.out">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/linklist/creat.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/lowestCommon">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/lowestCommon.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/score/a.out">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/score/score">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/score/score.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/a">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu1.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu11">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu11.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu2">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu2.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu22">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/zhizhen/shuzu22.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/home/zxw/algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
