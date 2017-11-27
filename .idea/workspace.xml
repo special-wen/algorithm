@@ -12,29 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae9a499-4a73-4449-9ac7-3ac943ab65c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C经典联系习题/001第一个C程序/hello.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C经典联系习题/002运行多个源程序/helloword.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C经典联系习题/002运行多个源程序/print.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C经典联系习题/002运行多个源程序/print.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C经典联系习题/003求整数之积/3.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C经典联系习题/004比较实数大小/4.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/financialManagement/financial.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reverse/reverse.c" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/letterCont/letterCont.h" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithm.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/algorithm.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/algorithm.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letterCont/letterCont.c" afterPath="$PROJECT_DIR$/letterCont/letterCont.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/水仙花数/flower.c" afterPath="$PROJECT_DIR$/水仙花数/flower.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/financialManagement/financial.c" afterPath="$PROJECT_DIR$/financialManagement/financial.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +37,8 @@
       <file leaf-file-name="financial.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/financialManagement/financial.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -135,6 +113,7 @@
         <option value="$PROJECT_DIR$/C经典联系习题/003求整数之积/3.c" />
         <option value="$PROJECT_DIR$/C经典联系习题/004比较实数大小/4.c" />
         <option value="$PROJECT_DIR$/reverse/reverse.c" />
+        <option value="$PROJECT_DIR$/financialManagement/financial.c" />
       </list>
     </option>
   </component>
@@ -222,12 +201,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511699853367</updated>
       <workItem from="1511699855436" duration="8123000" />
-      <workItem from="1511788539055" duration="2434000" />
+      <workItem from="1511788539055" duration="3288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10557000" />
+    <option name="totallyTimeSpent" value="11411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,8 +219,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="27" width="683" height="741" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31968504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31968504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -395,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/financialManagement/financial.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>
