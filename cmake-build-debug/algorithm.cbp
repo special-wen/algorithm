@@ -128,9 +128,6 @@
 		<Unit filename="/home/zxw/algorithm/A+B/linst.c">
 			<Option target="algorithm"/>
 		</Unit>
-		<Unit filename="/home/zxw/algorithm/a.out">
-			<Option target="algorithm"/>
-		</Unit>
 		<Unit filename="/home/zxw/algorithm/cow/a.c">
 			<Option target="algorithm"/>
 		</Unit>
@@ -146,22 +143,13 @@
 		<Unit filename="/home/zxw/algorithm/evenSum.c">
 			<Option target="algorithm"/>
 		</Unit>
-		<Unit filename="/home/zxw/algorithm/hello">
-			<Option target="algorithm"/>
-		</Unit>
-		<Unit filename="/home/zxw/algorithm/hello.c">
-			<Option target="algorithm"/>
-		</Unit>
 		<Unit filename="/home/zxw/algorithm/linklist/a.out">
 			<Option target="algorithm"/>
 		</Unit>
 		<Unit filename="/home/zxw/algorithm/linklist/creat.c">
 			<Option target="algorithm"/>
 		</Unit>
-		<Unit filename="/home/zxw/algorithm/lowestCommon">
-			<Option target="algorithm"/>
-		</Unit>
-		<Unit filename="/home/zxw/algorithm/lowestCommon.c">
+		<Unit filename="/home/zxw/algorithm/lowestCommon/lowestCommon.c">
 			<Option target="algorithm"/>
 		</Unit>
 		<Unit filename="/home/zxw/algorithm/score/a.out">

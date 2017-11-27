@@ -609,52 +609,28 @@ CMakeFiles/algorithm.dir/evenSum.c.o.provides: CMakeFiles/algorithm.dir/evenSum.
 CMakeFiles/algorithm.dir/evenSum.c.o.provides.build: CMakeFiles/algorithm.dir/evenSum.c.o
 
 
-CMakeFiles/algorithm.dir/hello.c.o: CMakeFiles/algorithm.dir/flags.make
-CMakeFiles/algorithm.dir/hello.c.o: ../hello.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxw/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/algorithm.dir/hello.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/hello.c.o   -c /home/zxw/algorithm/hello.c
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o: CMakeFiles/algorithm.dir/flags.make
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o: ../lowestCommon/lowestCommon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxw/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o   -c /home/zxw/algorithm/lowestCommon/lowestCommon.c
 
-CMakeFiles/algorithm.dir/hello.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/hello.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zxw/algorithm/hello.c > CMakeFiles/algorithm.dir/hello.c.i
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zxw/algorithm/lowestCommon/lowestCommon.c > CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.i
 
-CMakeFiles/algorithm.dir/hello.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/hello.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zxw/algorithm/hello.c -o CMakeFiles/algorithm.dir/hello.c.s
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zxw/algorithm/lowestCommon/lowestCommon.c -o CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.s
 
-CMakeFiles/algorithm.dir/hello.c.o.requires:
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.requires:
 
-.PHONY : CMakeFiles/algorithm.dir/hello.c.o.requires
+.PHONY : CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.requires
 
-CMakeFiles/algorithm.dir/hello.c.o.provides: CMakeFiles/algorithm.dir/hello.c.o.requires
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/hello.c.o.provides.build
-.PHONY : CMakeFiles/algorithm.dir/hello.c.o.provides
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.provides: CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.requires
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.provides.build
+.PHONY : CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.provides
 
-CMakeFiles/algorithm.dir/hello.c.o.provides.build: CMakeFiles/algorithm.dir/hello.c.o
-
-
-CMakeFiles/algorithm.dir/lowestCommon.c.o: CMakeFiles/algorithm.dir/flags.make
-CMakeFiles/algorithm.dir/lowestCommon.c.o: ../lowestCommon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxw/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/algorithm.dir/lowestCommon.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/lowestCommon.c.o   -c /home/zxw/algorithm/lowestCommon.c
-
-CMakeFiles/algorithm.dir/lowestCommon.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/lowestCommon.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zxw/algorithm/lowestCommon.c > CMakeFiles/algorithm.dir/lowestCommon.c.i
-
-CMakeFiles/algorithm.dir/lowestCommon.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/lowestCommon.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zxw/algorithm/lowestCommon.c -o CMakeFiles/algorithm.dir/lowestCommon.c.s
-
-CMakeFiles/algorithm.dir/lowestCommon.c.o.requires:
-
-.PHONY : CMakeFiles/algorithm.dir/lowestCommon.c.o.requires
-
-CMakeFiles/algorithm.dir/lowestCommon.c.o.provides: CMakeFiles/algorithm.dir/lowestCommon.c.o.requires
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon.c.o.provides.build
-.PHONY : CMakeFiles/algorithm.dir/lowestCommon.c.o.provides
-
-CMakeFiles/algorithm.dir/lowestCommon.c.o.provides.build: CMakeFiles/algorithm.dir/lowestCommon.c.o
+CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.provides.build: CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o
 
 
 # Object files for target algorithm
@@ -682,8 +658,7 @@ algorithm_OBJECTS = \
 "CMakeFiles/algorithm.dir/zhizhen/shuzu2.c.o" \
 "CMakeFiles/algorithm.dir/zhizhen/shuzu22.c.o" \
 "CMakeFiles/algorithm.dir/evenSum.c.o" \
-"CMakeFiles/algorithm.dir/hello.c.o" \
-"CMakeFiles/algorithm.dir/lowestCommon.c.o"
+"CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o"
 
 # External object files for target algorithm
 algorithm_EXTERNAL_OBJECTS =
@@ -711,11 +686,10 @@ algorithm: CMakeFiles/algorithm.dir/zhizhen/shuzu11.c.o
 algorithm: CMakeFiles/algorithm.dir/zhizhen/shuzu2.c.o
 algorithm: CMakeFiles/algorithm.dir/zhizhen/shuzu22.c.o
 algorithm: CMakeFiles/algorithm.dir/evenSum.c.o
-algorithm: CMakeFiles/algorithm.dir/hello.c.o
-algorithm: CMakeFiles/algorithm.dir/lowestCommon.c.o
+algorithm: CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o
 algorithm: CMakeFiles/algorithm.dir/build.make
 algorithm: CMakeFiles/algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxw/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxw/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -746,8 +720,7 @@ CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/zhizhen/shuzu11.c.o.
 CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/zhizhen/shuzu2.c.o.requires
 CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/zhizhen/shuzu22.c.o.requires
 CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/evenSum.c.o.requires
-CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/hello.c.o.requires
-CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/lowestCommon.c.o.requires
+CMakeFiles/algorithm.dir/requires: CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o.requires
 
 .PHONY : CMakeFiles/algorithm.dir/requires
 

@@ -17,9 +17,10 @@ void IsFlower(int m,int n){
     int ge,shi,bai;
     if(m>=100 && m<=999 && n>=100 & n<=999){
         for(i=m;i<=n;i++){
-            bai = i/100;
-            shi = i%100/10;
-            ge = i%100%10;
+            //int array[3];
+            bai = i/100; //array[0]
+            shi = i%100/10; //array[1]
+            ge = i%100%10; //array[2]
             sum = bai*bai*bai+shi*shi*shi+ge*ge*ge;
             if(sum == i){
                 tag++;

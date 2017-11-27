@@ -582,33 +582,6 @@ evenSum.c.s:
 	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/evenSum.c.s
 .PHONY : evenSum.c.s
 
-hello.o: hello.c.o
-
-.PHONY : hello.o
-
-# target to build an object file
-hello.c.o:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/hello.c.o
-.PHONY : hello.c.o
-
-hello.i: hello.c.i
-
-.PHONY : hello.i
-
-# target to preprocess a source file
-hello.c.i:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/hello.c.i
-.PHONY : hello.c.i
-
-hello.s: hello.c.s
-
-.PHONY : hello.s
-
-# target to generate assembly for a file
-hello.c.s:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/hello.c.s
-.PHONY : hello.c.s
-
 linklist/creat.o: linklist/creat.c.o
 
 .PHONY : linklist/creat.o
@@ -636,32 +609,32 @@ linklist/creat.c.s:
 	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/linklist/creat.c.s
 .PHONY : linklist/creat.c.s
 
-lowestCommon.o: lowestCommon.c.o
+lowestCommon/lowestCommon.o: lowestCommon/lowestCommon.c.o
 
-.PHONY : lowestCommon.o
+.PHONY : lowestCommon/lowestCommon.o
 
 # target to build an object file
-lowestCommon.c.o:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon.c.o
-.PHONY : lowestCommon.c.o
+lowestCommon/lowestCommon.c.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o
+.PHONY : lowestCommon/lowestCommon.c.o
 
-lowestCommon.i: lowestCommon.c.i
+lowestCommon/lowestCommon.i: lowestCommon/lowestCommon.c.i
 
-.PHONY : lowestCommon.i
+.PHONY : lowestCommon/lowestCommon.i
 
 # target to preprocess a source file
-lowestCommon.c.i:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon.c.i
-.PHONY : lowestCommon.c.i
+lowestCommon/lowestCommon.c.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.i
+.PHONY : lowestCommon/lowestCommon.c.i
 
-lowestCommon.s: lowestCommon.c.s
+lowestCommon/lowestCommon.s: lowestCommon/lowestCommon.c.s
 
-.PHONY : lowestCommon.s
+.PHONY : lowestCommon/lowestCommon.s
 
 # target to generate assembly for a file
-lowestCommon.c.s:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon.c.s
-.PHONY : lowestCommon.c.s
+lowestCommon/lowestCommon.c.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.s
+.PHONY : lowestCommon/lowestCommon.c.s
 
 score/score.o: score/score.c.o
 
@@ -858,15 +831,12 @@ help:
 	@echo "... evenSum.o"
 	@echo "... evenSum.i"
 	@echo "... evenSum.s"
-	@echo "... hello.o"
-	@echo "... hello.i"
-	@echo "... hello.s"
 	@echo "... linklist/creat.o"
 	@echo "... linklist/creat.i"
 	@echo "... linklist/creat.s"
-	@echo "... lowestCommon.o"
-	@echo "... lowestCommon.i"
-	@echo "... lowestCommon.s"
+	@echo "... lowestCommon/lowestCommon.o"
+	@echo "... lowestCommon/lowestCommon.i"
+	@echo "... lowestCommon/lowestCommon.s"
 	@echo "... score/score.o"
 	@echo "... score/score.i"
 	@echo "... score/score.s"

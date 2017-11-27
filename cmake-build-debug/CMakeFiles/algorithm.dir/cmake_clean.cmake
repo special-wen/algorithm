@@ -22,8 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/algorithm.dir/zhizhen/shuzu2.c.o"
   "CMakeFiles/algorithm.dir/zhizhen/shuzu22.c.o"
   "CMakeFiles/algorithm.dir/evenSum.c.o"
-  "CMakeFiles/algorithm.dir/hello.c.o"
-  "CMakeFiles/algorithm.dir/lowestCommon.c.o"
+  "CMakeFiles/algorithm.dir/lowestCommon/lowestCommon.c.o"
   "algorithm.pdb"
   "algorithm"
 )
