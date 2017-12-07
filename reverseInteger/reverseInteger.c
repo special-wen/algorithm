@@ -1,6 +1,7 @@
 //
 // Created by zxw on 17-12-7.
 //
+#include <limits.h>
 #include <stdio.h>
 int reverse(int x);
 int main(void){
@@ -10,33 +11,23 @@ int main(void){
     y = reverse(n);
     printf("%d",y);
 }
-int reverse(int x) {
-    int i = 0;
-    int tag,temp;
-    double num[200];
-    double y=0;
+int reverse(int x){
+    int flag=1;
+
+    long result;
     if(x<0){
+        flag = 0;
         x = x*(-1);
-        tag = 0;
-    }else{
-        tag = 1;
     }
-    do{
-        num[i] = x%10;
+    while (x!=0){
+        result = result*10+x%10;
         x = x/10;
-        i++;
-    }while(x!=0);
-    y =0;
-    for(int j = 0;j<i;j++){
-        if(y*10+num[j]>=2147483647)
-
+        if(result>INT_MAX ||result<INT_MIN){
             return 0;
-        y = y*10+num[j];
-
-
+        }
     }
-    if(tag==0)
-        y = y*(-1);
-    return y;
-
+    if (flag == 0){
+        result = result*(-1);
+    }
+    return result;
 }
