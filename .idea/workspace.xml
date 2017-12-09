@@ -12,9 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae9a499-4a73-4449-9ac7-3ac943ab65c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/longestCommonPrefix/longestCommonPrefix.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validParentheses/validParentheses.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/romanToInteger/romanToInteger.c" afterPath="$PROJECT_DIR$/romanToInteger/romanToInteger.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/longestCommonPrefix/longestCommonPrefix.c" afterPath="$PROJECT_DIR$/longestCommonPrefix/longestCommonPrefix.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,14 +112,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="longestCommonPrefix.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="longestCommonPrefix.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/longestCommonPrefix/longestCommonPrefix.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#36#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validParentheses.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validParentheses/validParentheses.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +166,7 @@
         <option value="$PROJECT_DIR$/palindromeNumber/palindromeNumber.c" />
         <option value="$PROJECT_DIR$/romanToInteger/romanToInteger.c" />
         <option value="$PROJECT_DIR$/longestCommonPrefix/longestCommonPrefix.c" />
+        <option value="$PROJECT_DIR$/validParentheses/validParentheses.c" />
       </list>
     </option>
   </component>
@@ -249,12 +260,12 @@
       <workItem from="1512556275106" duration="2720000" />
       <workItem from="1512624641182" duration="12457000" />
       <workItem from="1512691655118" duration="10768000" />
-      <workItem from="1512817336653" duration="4846000" />
+      <workItem from="1512817336653" duration="7841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52739000" />
+    <option name="totallyTimeSpent" value="55734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +280,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17678301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10166919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -320,14 +331,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C经典联系习题/005字符的输出/5.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C经典联系习题/006显示变量所占字节数/6.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -699,11 +702,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/longestCommonPrefix/longestCommonPrefix.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="320">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#36#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validParentheses/validParentheses.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
