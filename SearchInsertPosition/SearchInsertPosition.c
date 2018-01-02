@@ -12,12 +12,20 @@ int main(void){
 }
 
 int searchInsert(int* nums, int numsSize, int target) {
+    int index;
     for(int i = 0;i<numsSize;i++){
         if (target == nums[i]){
-            return i;
+            index = i;
         }
         if(target >= nums[i] && target <= nums[i+1]){
-            return i+1;
+            index = i+1;
+        }
+        if(target < nums[0]){
+            index = 0;
+        }
+        if(target > nums[numsSize-1]){
+            index = numsSize;
         }
     }
+    return index;
 }
