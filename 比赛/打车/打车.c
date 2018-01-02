@@ -7,7 +7,6 @@ int main(void){
     int n,s;
     scanf("%d %d",&n,&s);
     int array[n];
-//    getchar();
     for(int i = 0;i<n;i++){
         scanf("%d",&array[i]);
     }

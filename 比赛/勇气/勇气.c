@@ -15,12 +15,10 @@ int main(void){
             value = max(value);
             ch[flag] = 'G';
             flag++;
-//            printf("G");
         } else{
             value = min(value);
             ch[flag] = 'N';
             flag++;
-//            printf("N");
         }
     }
     while (flag > 0){

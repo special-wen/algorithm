@@ -21,7 +21,4 @@ int main(void){
         }
     }
     printf("%d\n",flag);
-    for(int i = 0;i<n;i++){
-        printf("% d",array[i]);
-    }
 }
