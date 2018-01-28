@@ -12,9 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae9a499-4a73-4449-9ac7-3ac943ab65c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/a.out" afterPath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaximumDepthOfBinaryTree/MaximumDepth.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c" afterPath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,45 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strStr.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/implementstrStr()/strStr.c">
+      <file leaf-file-name="MaximumDepth.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MaximumDepthOfBinaryTree/MaximumDepth.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Length of Last Word.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lengthOfLast Word/Length of Last Word.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <element signature="e#37#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addTwoNumbers.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addTwoNumbers/addTwoNumbers.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#36#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="212">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#37#55#0" expanded="true" />
               </folding>
@@ -123,6 +88,7 @@
         <option value="$PROJECT_DIR$/addTwoNumbers/addTwoNumbers.c" />
         <option value="$PROJECT_DIR$/IntegertoRoman/integerToRoman.c" />
         <option value="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c" />
+        <option value="$PROJECT_DIR$/MaximumDepthOfBinaryTree/MaximumDepth.c" />
       </list>
     </option>
   </component>
@@ -132,7 +98,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="683" />
     <option name="y" value="27" />
     <option name="width" value="683" />
@@ -160,6 +126,11 @@
               <item name="algorithm" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="MaximumDepthOfBinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MaximumDepthOfBinaryTree" />
       <recent name="$PROJECT_DIR$/removeElement" />
       <recent name="$PROJECT_DIR$/lowestCommon" />
     </key>
@@ -238,12 +210,12 @@
       <workItem from="1516687875531" duration="6344000" />
       <workItem from="1516759370809" duration="1795000" />
       <workItem from="1517051386437" duration="1820000" />
-      <workItem from="1517106034860" duration="358000" />
+      <workItem from="1517106034860" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122518000" />
+    <option name="totallyTimeSpent" value="124970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,7 +227,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="683" y="27" width="683" height="741" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3464567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -317,13 +289,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C经典联系习题/004比较实数大小/4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C经典联系习题/002运行多个源程序/print.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -628,14 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/implementstrStr()/strStr.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lengthOfLast Word/Length of Last Word.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -665,8 +622,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="332">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implementstrStr()/strStr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MaximumDepthOfBinaryTree/MaximumDepth.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#37#55#0" expanded="true" />
           </folding>
