@@ -12,8 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae9a499-4a73-4449-9ac7-3ac943ab65c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/a.out" afterPath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/a.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c" afterPath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="strStr.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implementstrStr()/strStr.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="500">
               <caret line="25" column="23" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
@@ -50,7 +51,7 @@
       <file leaf-file-name="addTwoNumbers.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addTwoNumbers/addTwoNumbers.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="340">
               <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="e#36#54#0" expanded="true" />
@@ -62,8 +63,8 @@
       <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="192">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="e#37#55#0" expanded="true" />
               </folding>
@@ -132,6 +133,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -235,12 +237,13 @@
       <workItem from="1516673622815" duration="6655000" />
       <workItem from="1516687875531" duration="6344000" />
       <workItem from="1516759370809" duration="1795000" />
-      <workItem from="1517051386437" duration="1423000" />
+      <workItem from="1517051386437" duration="1820000" />
+      <workItem from="1517106034860" duration="358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121763000" />
+    <option name="totallyTimeSpent" value="122518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,7 +265,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11960133" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38870433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -627,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/implementstrStr()/strStr.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="500">
           <caret line="25" column="23" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
@@ -647,15 +650,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#36#54#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addTwoNumbers/addTwoNumbers.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="340">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="e#36#54#0" expanded="true" />
@@ -665,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="192">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
           <folding>
             <element signature="e#37#55#0" expanded="true" />
           </folding>
