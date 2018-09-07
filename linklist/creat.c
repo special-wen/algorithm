@@ -42,7 +42,7 @@ void Insert(Stu *head){
     temp->next = new;
     new->id = temp->id + 1;
     strcpy(new->name,name);
-   //printf("(%d,%s)->",new->id,new->name);
+    printf("(%d,%s)->",new->id,new->name);
 }
 
 void Print(Stu *head){
@@ -53,3 +53,5 @@ void Print(Stu *head){
         temp = temp->next;
     }
 }
+
+

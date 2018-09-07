@@ -13,13 +13,19 @@ int maxSubArray(int* nums, int numsSize) {
     int i;
     int sum = 0;
     int max = nums[0];
+    int pre;
+    int next;
     for (i = 0;  i<numsSize ; i++) {
         sum = 0;
         for(int j = i;j<numsSize;j++){
             sum = sum + nums[j];
-            if(max < sum)
+            if(max < sum){
+                next = i;
+                pre = j;
                 max = sum;
+                
+            }
         }
     }
-    return max;
+    return next;
 }
